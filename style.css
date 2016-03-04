@@ -108,18 +108,23 @@ body {
 }
 .h_nav li {
 	display: inline-block;
-	margin: 0 10px 0 36px;
+	margin: 0 5px;
 }
 .h_nav a {
 	display: inline-block;
+	height: 57px;
 	font-size: 20px;
-	line-height: 73px;
+	line-height: 57px;
 	color: #000;
 	text-decoration: none;
-	padding: 0 2px;
+	padding: 0 24px;
+	-webkit-border-radius: 4px;
+	        border-radius: 4px;
+	margin-top: 8px;
 }
 .h_nav a:hover {
-	text-decoration: underline;
+	background: #B7B7B7;
+	color: #fff;
 }
 
 
@@ -162,7 +167,25 @@ body {
 	overflow: hidden;
 }
 
-
+.c_top {
+	width: 100%;
+	min-width: 1200px;
+	height: 300px;
+	background: url('i/bg-top-vospomin.jpg') center top no-repeat;
+	color: #FFF;
+	text-align: center;
+	font-weight: bold;
+	line-height: 1.2;
+	text-transform: uppercase;
+}
+.c_top-head {
+	font-size: 60px;
+	margin-top: 70px;
+}
+.c_top-desc {
+	font-size: 25px;
+	margin-top: 20px;
+}
 
 
 
@@ -261,6 +284,115 @@ body {
 	margin-bottom: 75px;
 }
 
+
+
+/* Preim list ----------------------------- */
+.c_preimv {
+	text-align: center;
+	font-size: 0;
+	padding: 27px 0;
+}
+.c_preimv-item {
+	display: inline-block;
+	width: 520px;
+	margin: 0 35px;
+	overflow: hidden;
+	color: #000;
+	font-size: 15px;
+	line-height: 20px;
+	text-align: left;
+	vertical-align: top;
+}
+.c_preimv-item__icon {
+	width: 104px;
+	height: 104px;
+	-webkit-border-radius: 100%;
+	        border-radius: 100%;
+	background: #b7b7b7;
+	margin: 0 12px 10px 0;
+	float: left;
+	position: relative;
+}
+.c_preimv-item__icon-korr:before {
+	content: "";
+	position: absolute;
+	top: 27px;
+	left: 50%;
+	margin-left: -26px;
+	width: 52px;
+	height: 52px;
+	background: url('i/bg-icon.png') 0 0 no-repeat;
+}
+.c_preimv-item__icon-diam:before {
+	content: "";
+	position: absolute;
+	top: 29px;
+	left: 50%;
+	margin-left: -24px;
+	width: 48px;
+	height: 50px;
+	background: url('i/bg-icon.png') -52px 0 no-repeat;
+}
+.c_preimv-item__head {
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 20px;
+	margin-bottom: 12px;
+}
+
+
+
+/* Why ------------------------------------------------ */
+.c_why-list {
+	width: 1232px;
+	margin-left: -16px;
+	text-align: center;
+	font-size: 0;
+	margin-bottom: 65px;
+}
+.c_why-list li {
+	display: inline-block;
+	width: 377px;
+	margin: 0 16px;
+	vertical-align: top;
+	text-align: left;
+}
+.c_why-list__thumbs {
+	width: 377px;
+	height: 377px;
+	overflow: hidden;
+	-webkit-border-radius: 7px;
+	        border-radius: 7px;
+	margin-bottom: 18px;
+}
+.c_why-list__thumbs img {
+	width: 377px;
+	height: auto;
+	min-height: 377px;
+}
+.c_why-list__head {
+	color: #000;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 25px;
+	margin-bottom: 12px;
+}
+.c_why-list__txt {
+	font-size: 15px;
+	line-height: 20px;
+	width: 290px;
+}
+
+
+
+/* Kach line -------------------------- */
+.c_kachl {
+	width: 100%;
+	min-width: 1200px;
+	height: 559px;
+	background: url('i/bg-podr.jpg') center top no-repeat;
+}
 
 
 
